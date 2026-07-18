@@ -8,7 +8,7 @@ This repository contains a modern **SystemVerilog** implementation of the ARM AM
 * **ARM AMBA Compliance:** Implements standard APB3/APB4 signals including `PREADY` for wait-state insertion and `PSLVERR` for slave error reporting.
 * **Configurable Architecture:** Address width, data width, and memory depth are fully parameterizable.
 
-## 📂 File Structure
+##  File Structure
 
 | File | Description |
 | :--- | :--- |
@@ -17,7 +17,7 @@ This repository contains a modern **SystemVerilog** implementation of the ARM AM
 | `apb_top.sv` | The top-level wrapper that instantiates and connects the Master and Slave modules over the APB bus. |
 | `APB_tb.sv` | A self-contained testbench demonstrating normal writes, normal reads, and out-of-bounds error handling. |
 
-## ⚙️ Protocol State Machine
+##  Protocol State Machine
 
 The APB Master operates using the standard three-state AMBA specification:
 1. **IDLE:** The default state when no transfers are active.
